@@ -18,7 +18,7 @@ const Intro = () => {
             data-aos="zoom-in"
             data-aos-delay="500"
           >
-            <h3 className="text-3xl  text-blue-900 font-bold">
+            <h3 className="text-3xl  text-sky-800 font-bold">
               We create top-quality custom web and mobile applications tailored
               for organizations, institutions, and SMEs. Our experienced
               development team is ready to turn your ideas into reality
@@ -40,7 +40,7 @@ const Intro = () => {
             </div> */}
             <Link
               to="/contact"
-              className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group"
+              className="text-white bg-sky-800 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group"
             >
               Contact us
               <svg

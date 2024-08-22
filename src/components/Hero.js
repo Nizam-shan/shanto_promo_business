@@ -24,7 +24,7 @@ const Hero = () => {
               data-aos="zoom-in"
               data-aos-delay="200"
             >
-              <h1 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900">
+              <h1 className="mb-5 md:text-5xl text-3xl mt-8 font-bold text-sky-800">
                 {/* We build digital solutions to help businesses scale */}
                 Tailored software solutions crafted to meet your business’s
                 unique challenges.
@@ -36,9 +36,9 @@ const Hero = () => {
               <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
                 <Link
                   to="/contact"
-                  className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0"
+                  className="text-white bg-sky-800 hover:bg-blue-900 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0"
                 >
-                  Learn more
+                  Get in touch
                   <svg
                     className="w-4 h-4 ml-1"
                     xmlns="http://www.w3.org/2000/svg"
