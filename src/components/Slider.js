@@ -80,10 +80,10 @@ function AutoPlay() {
       <Slider {...settings}>
         {productDetails?.map((item, index) => (
           <div key={index} className="flex justify-center items-center p-4">
-            <div className="max-w-sm bg-white  rounded-lg shadow-xl dark:bg-white transition-all ease-in-out duration-400 overflow-hidden group ">
+            <div className="w-76 h-[400px] bg-white  rounded-lg shadow-xl dark:bg-white transition-all ease-in-out duration-400 overflow-hidden group ">
               <a href="/">
                 <img
-                  className="rounded-t-lg object-cover w-full h-56 transition duration-1000 ease-in-out group-hover:scale-[1.15]"
+                  className="rounded-t-lg object-cover w-full h-48 transition duration-1000 ease-in-out group-hover:scale-[1.15]"
                   src={item?.img}
                   alt="img"
                 />

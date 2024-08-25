@@ -211,10 +211,9 @@ const Contact = () => {
                 </div>
                 <div className="flex flex-col">
                   <h2 className="text-2xl">Office Address</h2>
-                  <p className="text-gray-400">Kochi, india, kerala State</p>
+                  <p className="text-gray-400">Info-park,phase 2,kakanad</p>
                 </div>
               </div>
-
               <div className="flex my-4 w-2/3 lg:w-1/2">
                 <div className="flex flex-col">
                   <i className="fas fa-phone-alt pt-2 pr-2" />
@@ -222,19 +221,19 @@ const Contact = () => {
 
                 <div className="flex flex-col">
                   <h2 className="text-2xl">Call Us</h2>
-                  <p className="text-gray-400">Tel: 94188854455</p>
+                  <p className="text-gray-400">Tel: 9497243620</p>
 
                   <div className="mt-5">
                     <h2 className="text-2xl">Send an E-mail</h2>
-                    <p className="text-gray-400">shanto@gmail.com</p>
+                    <p className="text-gray-400">shantothomas501@gmail.com</p>
                   </div>
                 </div>
               </div>
 
               <div className="flex my-4 w-2/3 lg:w-1/2">
                 <a
-                  href="https://www.facebook.com/ENLIGHTENEERING/"
-                  target="_blank"
+                  href="/contact"
+                  // target="_blank"
                   rel="noreferrer"
                   className="rounded-full flex justify-center bg-white h-8 text-blue-900  w-8  mx-1 text-center pt-1"
                 >
@@ -249,7 +248,7 @@ const Contact = () => {
                   </svg>
                 </a>
                 <a
-                  href="https://www.linkedin.com/company/enlighteneering-inc-"
+                  href="https://www.linkedin.com/in/shanto-thomas-b9b3151ab/"
                   target="_blank"
                   rel="noreferrer"
                   className="rounded-full flex justify-center bg-white h-8 text-blue-900  w-8  mx-1 text-center pt-1"

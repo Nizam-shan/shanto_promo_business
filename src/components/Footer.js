@@ -23,10 +23,10 @@ const Footer = () => {
                   />
                 </div>
                 <div className="text-md font-medium text-gray-600">
-                  <h5>India</h5>
-                  <p>kerala</p>
-                  <p>shanto consult,</p>
-                  <p>Kochi</p>
+                  <h5>INDIA</h5>
+                  <p>Kerala</p>
+                  <p>CODEKLUGER,</p>
+                  <p>KOCHI</p>
                 </div>
               </div>
             </div>
@@ -153,7 +153,7 @@ const Footer = () => {
                 Copyright &copy; {new Date().getFullYear()}
                 {"  "}
                 <HashLink to="#" className=" hover:text-gray-900">
-                  Shanto consult
+                  CODEKLUGER
                 </HashLink>
                 . All rights reserved.
               </div>

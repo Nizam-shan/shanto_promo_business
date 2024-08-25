@@ -28,11 +28,16 @@ const NavBar = () => {
         <div className="flex flex-row justify-center md:px-12 md:mx-12 items-center text-center font-semibold">
           <HashLink smooth to="/#hero">
             {/* <h1 className="font-extrabold text-4xl text-blue-900">Shanto</h1> */}
-            <img
-              src={logo}
-              alt="Logo"
-              style={{ maxWidth: "150px", maxHeight: "150px" }}
-            />
+            <div className="flex flex-row text-center justify-center items-center">
+              <img
+                src={logo}
+                alt="Logo"
+                style={{ maxWidth: "150px", maxHeight: "150px" }}
+              />
+              <h1 className="  font-extrabold text-2xl text-sky-800 text-center justify-center ">
+                CODEKLUGER
+              </h1>
+            </div>
           </HashLink>
         </div>
         <div className="group flex flex-col items-center">
