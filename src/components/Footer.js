@@ -22,7 +22,7 @@ const Footer = () => {
                     className=""
                   />
                 </div>
-                <div className="text-md font-medium text-gray-600">
+                 <div className="text-md font-medium text-[#013289]">
                   <h5>INDIA</h5>
                   <p>Kerala</p>
                   <p>CODEKLUGER,</p>
@@ -37,7 +37,7 @@ const Footer = () => {
               <ul className="text-md">
                 <li className="mb-2">
                   <HashLink
-                    to="#"
+                     to="/#about"
                     className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
                   >
                     About
@@ -45,7 +45,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-2">
                   <HashLink
-                    to="#"
+                    to="/#services"
                     className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
                   >
                     Services
@@ -53,7 +53,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-2">
                   <HashLink
-                    to="#"
+                   to="/contact#contact"
                     className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
                   >
                     Contact
